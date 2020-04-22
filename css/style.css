@@ -1,0 +1,164 @@
+/*匹配所有的元素，去掉浏览器自带的内边距和外边距*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*头部样式*/
+.header{
+	width:375px;
+	height: 37px;
+	display: flex;
+	background:#FF852A;
+	color: #FFFFFF;
+	align-items: center;
+	/*主轴*/
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.logo{
+	width: 37px;
+	height: 37px;
+	background-image: url(../img/taobaologo.png);
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.searchBtn{
+	width: 324px;
+	height: 25px;
+	background: #FF4E22;
+	/*设定圆角*/
+	border-radius: 4px;
+	margin-right: 8px;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.searchIcon{
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/sousuo.png);
+	background-size: 65%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.swiper{
+	margin-top: 37px;
+	width: 375px;
+	height: 120px;
+	background-image: url(../img/zhuye.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/*图标列表*/
+.iconList{
+	width: 375px;
+	height: 160px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	background-color: #FFFFFF;
+}
+
+.iconItem{
+	width: 20%;
+	height: 67px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon{
+	width: 61px;
+	height: 48px;
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: repeat;
+}
+
+.iconText{
+	font-size: 11px;
+    color: rgb(102, 102, 102);
+    margin-top: 4px;
+    align-content: space-around;
+}
+
+
+/*jhs标签页*/
+.jhs{
+	width: 375px;
+	height: 363px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 20px;
+	
+}
+
+.jhsItem{
+	width: 50%;
+	height: 181px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: stretch;
+}
+
+.jhsLeft{
+	width: 90px;
+	height: 182px;
+	color: rgb(254, 78, 80);
+	font-size: 11px;
+	font-weight: bold;
+	
+}
+
+.jhsRight{
+	flex: 1;
+	height: 188px;
+	display: flex;
+}
+
+
+.jhsLeft.title{
+	background-size: 90% 90%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mmp{
+	color: rgb(254, 78, 80);
+	font-size: 11px;
+	font-weight: bold;
+	padding: 23px 0 0 0;
+}
+
+.bottom{
+	width: 375px;
+	height: 43px;
+	display: flex;
+	background:#FFF;
+	color: transparent;
+	align-items: center;
+	/*主轴*/
+	justify-content: space-around;
+	position: fixed;
+	top: 624px;
+	left: 0;
+}
+
+.bom{
+	font-size: 9px;
+	text-align:center;
+	color:#5d656b;
+}
