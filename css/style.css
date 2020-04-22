@@ -10,7 +10,7 @@
 	height: 37px;
 	display: flex;
 	background:#FF852A;
-	color: #FFF;
+	color: #FFFFFF;
 	align-items: center;
 	/*主轴*/
 	justify-content: space-around;
@@ -147,9 +147,9 @@
 	width: 375px;
 	height: 73px;
 	display: flex;
-	background:#FFFFFF;
+	background:#FFF;
 	color: transparent;
-	align-items: center;
+	align-items: bottom;
 	/*主轴*/
 	justify-content: space-around;
 	position: fixed;
