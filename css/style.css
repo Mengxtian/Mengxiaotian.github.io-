@@ -6,7 +6,7 @@
 
 /*头部样式*/
 .header{
-	width:435px;
+	width:375;
 	height: 37px;
 	display: flex;
 	background:#FF852A;
@@ -144,8 +144,8 @@
 }
 
 .bottom{
-	width: 435px;
-	height: 43px;
+	width: 375px;
+	height: 83px;
 	display: flex;
 	background:#FFF;
 	color: transparent;
