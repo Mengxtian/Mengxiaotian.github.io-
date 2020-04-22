@@ -145,7 +145,7 @@
 
 .bottom{
 	width: 375px;
-	height: 83px;
+	height: 10px;
 	display: flex;
 	background:#FFF;
 	color: transparent;
@@ -153,7 +153,7 @@
 	/*主轴*/
 	justify-content: space-around;
 	position: fixed;
-	top: 640px;
+	top: 625px;
 	left: 0;
 }
 
