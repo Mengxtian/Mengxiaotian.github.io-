@@ -6,7 +6,7 @@
 
 /*头部样式*/
 .header{
-	width:414px;
+	width:375px;
 	height: 37px;
 	display: flex;
 	background:#FF852A;
@@ -144,16 +144,16 @@
 }
 
 .bottom{
-	width: 414px;
-	height: 43px;
+	width: 375px;
+	height: 73px;
 	display: flex;
-	background:#FFF;
+	background:#FFFFFF;
 	color: transparent;
 	align-items: bottom;
 	/*主轴*/
 	justify-content: space-around;
 	position: fixed;
-	top: 635px;
+	top: 625px;
 	left: 0;
 }
 
