@@ -6,7 +6,7 @@
 
 /*头部样式*/
 .header{
-	width:375px;
+	width:435px;
 	height: 37px;
 	display: flex;
 	background:#FF852A;
@@ -144,7 +144,7 @@
 }
 
 .bottom{
-	width: 425px;
+	width: 435px;
 	height: 43px;
 	display: flex;
 	background:#FFF;
@@ -153,7 +153,7 @@
 	/*主轴*/
 	justify-content: space-around;
 	position: fixed;
-	top: 625px;
+	top: 640px;
 	left: 0;
 }
 
